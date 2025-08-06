@@ -1,1 +1,80 @@
-/* Your styles go here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: bisque;
+    padding: 3rem;
+    margin: 5rem;
+    border: 3px saddlebrown solid;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px rgb(190, 178, 163);
+    float: right;
+}
+
+h1{
+    background-color: burlywood;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.topRock, .bottomRock{
+    border: 3px saddlebrown solid;
+    border-radius: 1rem;
+    float: right;
+    margin: 1rem;
+}
+
+.topRock{
+    background-image: linear-gradient(to bottom, bisque, saddlebrown);
+}
+
+.bottomRock{
+    background-image: radial-gradient(bisque, saddlebrown, black);
+    clear: right;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 3px saddlebrown solid;
+}
+
+.topRock img:hover{
+    filter: contrast(10);
+}
+
+.bottomRock img:hover{
+    filter: sepia(10);
+}
+
+nav{
+    float: left;
+    background-color: sienna;
+    padding: 3rem;
+    height: 80rem;
+    border-right: 10px saddlebrown solid;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type:none;
+}
+
+a:hover{
+    background-color: whitesmoke;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
